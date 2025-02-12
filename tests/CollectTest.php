@@ -9,7 +9,7 @@ class CollectTest extends TestCase
     {
         $collect = new Collect(['city' => 'Tomsk', 'age' => 18, 'b' => 3]);
         $result = $collect->only('city', 'b');
-        $this->assertSame(['city' => 'Tomsk', 'b' => 3], $result->toArray());
+        $this->assertSame(['city' => 'Tomsk', 'b' => 3], $result);
     }
 
     public function testFirst()
