@@ -19,7 +19,7 @@ describe('template spec', () => {
       cy.get(':nth-child(1) > .header__nav > [href="/needs"] > .header__label').click()
 
       cy.log('Переход в потребность')
-      cy.get(':nth-child(1) > .need-item__info-wrapper > .need-item__footer-wrapper > .need-footer > .need-footer__button-wrapper > .button').click()
+      cy.get(':nth-child(5) > .need-item__info-wrapper > .need-item__footer-wrapper > .need-footer > .need-footer__button-wrapper > .button').click()
 
       cy.log('Отклик на потребность')
       cy.contains('button', 'Откликнуться').click()

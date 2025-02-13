@@ -20,7 +20,7 @@ describe('template spec', () => {
             cy.get(':nth-child(5) > .menu-item__item-name').click()
 
             cy.log('Переход в рабочее пространство')
-            cy.get('button:contains("Рабочее пространство")').eq(1).click()
+            cy.get('button:contains("Рабочее пространство")').eq(5).click()
         })
     })
 
