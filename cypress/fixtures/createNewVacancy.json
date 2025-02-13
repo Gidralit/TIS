@@ -1,0 +1,10 @@
+{
+  "main_url": "https://dev.profteam.su",
+  "employer_login": "testerEmployer",
+  "password": "Password1",
+  "title": "Программист",
+  "duties": "Надо просто делать умный вид за компом",
+  "requirements": "-HTML -CSS -JS -VUE -REACT",
+  "duties_negative": "@#!$",
+  "requirements_negative": "123"
+}
